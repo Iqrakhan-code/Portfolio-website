@@ -14,7 +14,7 @@ A modern, responsive personal portfolio website built with **Next.js**, **React*
 
 ![Portfolio Screenshot](./public/image.png)
 
-> 📸 *You can replace this with a manually taken screenshot if needed.*
+> 
 
 ---
 
