@@ -11,18 +11,18 @@ import FAQs from '../components/FAQs'
 
 const Home = () => {
   return (
-    <div className=''>
-      <HeroSection />
-      <About />
-      <Experience />
-      <Projects />
-      <Education />
-      <Skills />
-      <Contact />
-      <FAQs />
-
+    <div>
+      <section id="home"><HeroSection /></section>
+      <section id="about"><About /></section>
+      <section id="experience"><Experience /></section>
+      <section id="projects"><Projects /></section>
+      <section id="education"><Education /></section>
+      <section id="skills"><Skills /></section>
+      <section id="contact"><Contact /></section>
+      <section id="faqs"><FAQs /></section>
     </div>
-  )
-}
+  );
+};
+
 
 export default Home

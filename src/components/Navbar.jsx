@@ -20,12 +20,13 @@ const Navbar = () => {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex gap-6 text-lg text-[#333]">
-            <li className="hover:text-purple-600 cursor-pointer">Home</li>
-            <li className="hover:text-purple-600 cursor-pointer">Project</li>
-            <li className="hover:text-purple-600 cursor-pointer">Experience</li>
-            <li className="hover:text-purple-600 cursor-pointer">About</li>
-            <li className="hover:text-purple-600 cursor-pointer">Contact</li>
-          </ul>
+  <li><a href="#home" className="hover:text-purple-600">Home</a></li>
+  <li><a href="#projects" className="hover:text-purple-600">Project</a></li>
+  <li><a href="#experience" className="hover:text-purple-600">Experience</a></li>
+  <li><a href="#about" className="hover:text-purple-600">About</a></li>
+  <li><a href="#contact" className="hover:text-purple-600">Contact</a></li>
+</ul>
+
           <button className="hover:bg-purple-600 bg-purple-700 text-white py-1 px-3 rounded-md">
             Download CV
           </button>
@@ -43,11 +44,14 @@ const Navbar = () => {
       {isOpen && (
   <div className="absolute top-16 left-0 w-full bg-white p-6 flex flex-col gap-4 text-[#333] shadow-md z-10">
     <ul className="flex flex-col gap-4 text-lg">
-      <li className="hover:text-purple-600 cursor-pointer">Home</li>
-      <li className="hover:text-purple-600 cursor-pointer">Project</li>
-      <li className="hover:text-purple-600 cursor-pointer">Experience</li>
-      <li className="hover:text-purple-600 cursor-pointer">About</li>
-      <li className="hover:text-purple-600 cursor-pointer">Contact</li>
+      
+  <li><a href="#home" className="hover:text-purple-600">Home</a></li>
+  <li><a href="#projects" className="hover:text-purple-600">Project</a></li>
+  <li><a href="#experience" className="hover:text-purple-600">Experience</a></li>
+  <li><a href="#about" className="hover:text-purple-600">About</a></li>
+  <li><a href="#contact" className="hover:text-purple-600">Contact</a></li>
+
+
     </ul>
     <button className="hover:bg-purple-600 bg-purple-700 text-white py-1 px-3 rounded-md w-fit">
       Download CV

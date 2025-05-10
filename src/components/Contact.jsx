@@ -12,14 +12,14 @@ import { SiLeetcode, SiFiverr, SiGeeksforgeeks } from 'react-icons/si';
 const contactLinks = {
   email: "iqrakhan.code@gmail.com",
   linkedin: "https://www.linkedin.com/in/iqra-khan-code/",
-  github: "https://github.com/yourusername",
-  leetcode: "https://leetcode.com/yourusername",
-  fiverr: "https://www.fiverr.com/yourusername",
-  hackerrank: "https://www.hackerrank.com/yourusername",
-  codeforces: "https://codeforces.com/profile/yourusername",
-  geeksforgeeks: "https://auth.geeksforgeeks.org/user/yourusername",
-  twitter: "https://twitter.com/yourusername",
-  portfolio: "https://yourportfolio.com",
+  github: "https://github.com/Iqrakhan-code/",
+  leetcode: "https://leetcode.com/Iqrakhan-code",
+  fiverr: "https://www.fiverr.com/Iqrakhan-code",
+  hackerrank: "https://www.hackerrank.com/Iqrakhan-code",
+  codeforces: "https://codeforces.com/profile/Iqrakhan-code",
+  geeksforgeeks: "https://auth.geeksforgeeks.org/user/Iqrakhan-code",
+  twitter: "https://twitter.com/Iqrakhan-code",
+  portfolio: "https://portfolio-website-iota-six-38.vercel.app/",
 };
 
 const Contact = () => {
