@@ -1,16 +1,16 @@
-# 💼 Iqra Khan - Developer Portfolio
+# Iqra Khan - Developer Portfolio
 
 A modern, responsive personal portfolio website built with **Next.js**, **React**, and **Tailwind CSS** to showcase skills, projects, experience, and contact information.
 
 ---
 
-## 🚀 Live Website
+##  Live Website
 
 🌐 [Visit Portfolio](https://portfolio-website-iota-six-38.vercel.app/)
 
 ---
 
-## 🖼 Screenshot
+##  Screenshot
 
 ![Portfolio Screenshot](./public/image.png)
 
