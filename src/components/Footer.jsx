@@ -14,11 +14,11 @@ const Footer = () => {
 
         {/* Nav Links */}
         <ul className="flex flex-wrap gap-4 text-sm text-[#c9c9c9] justify-center">
-          <li className="hover:text-purple-500 cursor-pointer">Home</li>
-          <li className="hover:text-purple-500 cursor-pointer">Project</li>
-          <li className="hover:text-purple-500 cursor-pointer">Experience</li>
-          <li className="hover:text-purple-500 cursor-pointer">About</li>
-          <li className="hover:text-purple-500 cursor-pointer">Contact</li>
+         <li><a href="#home" className="hover:text-purple-600">Home</a></li>
+  <li><a href="#projects" className="hover:text-purple-600">Project</a></li>
+  <li><a href="#experience" className="hover:text-purple-600">Experience</a></li>
+  <li><a href="#about" className="hover:text-purple-600">About</a></li>
+  <li><a href="#contact" className="hover:text-purple-600">Contact</a></li>
         </ul>
 
         {/* Copyright */}
