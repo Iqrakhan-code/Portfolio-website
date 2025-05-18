@@ -37,7 +37,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="py-14 px-6 md:px-20 bg-white">
+    <section className="py-14 px-6 md:px-20 bg-white" initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}>
       <h2 className="text-3xl md:text-4xl font-bold text-center text-purple-700 mb-10">Skills</h2>
 
       <div className="grid md:grid-cols-3 gap-10">

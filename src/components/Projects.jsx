@@ -96,7 +96,8 @@ const Projects = () => {
       : projectData.filter((project) => project.level === selectedFilter);
 
   return (
-    <section className="py-10 px-6 md:px-20 bg-gray-50 min-h-screen">
+    <section className="py-10 px-6 md:px-20 bg-gray-50 min-h-screen" initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}>
       <h2 className="text-3xl md:text-4xl font-bold text-center text-purple-700 mb-8">Projects</h2>
 
       {/* Filter Buttons */}
@@ -126,7 +127,7 @@ const Projects = () => {
             <img
               src={project.thumbnail}
               alt={project.title}
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover cursor-pointer"
             />
             <div className="p-6 flex flex-col flex-grow">
               <h3 className="text-xl font-bold text-purple-700 mb-2">{project.title}</h3>

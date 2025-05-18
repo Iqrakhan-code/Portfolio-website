@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBriefcase } from 'react-icons/fa';
+import { motion } from "framer-motion";
 
 const experiences = [
   {
@@ -27,7 +28,10 @@ const Experience = () => {
     <section className="py-14 px-6 md:px-20 bg-gray-50">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-purple-700 mb-10">Experience</h2>
 
-      <div className="space-y-8">
+      <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 0.5 }} className="space-y-8">
         {experiences.map((exp, index) => (
           <div
             key={index}
@@ -53,7 +57,7 @@ const Experience = () => {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };

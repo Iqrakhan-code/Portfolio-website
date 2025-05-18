@@ -36,7 +36,8 @@ const FAQs = () => {
   };
 
   return (
-    <section className="px-6 md:px-20 py-10 bg-white text-gray-800">
+    <section className="px-6 md:px-20 py-10 bg-white text-gray-800" initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}>
       <h2 className="text-3xl font-bold text-purple-700 mb-6">FAQs</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (

@@ -30,12 +30,15 @@ const Education = () => {
     <section
       id="education"
       className="p-6 md:p-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+      initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
     >
       <h2 className="text-3xl font-bold text-purple-700 dark:text-purple-400 mb-8">
         Education
       </h2>
 
-      <div className="space-y-4">
+      <div className="space-y-4" initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}>
         {educationData.map((edu, index) => (
           <div
             key={index}
