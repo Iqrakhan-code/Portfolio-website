@@ -7,3 +7,18 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+/*
+Source - https://stackoverflow.com/a/16390717
+Posted by Desolator, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-18, License - CC BY-SA 4.0
+*/
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}

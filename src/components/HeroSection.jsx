@@ -12,7 +12,7 @@ const HeroSection = () => {
       animate={{ width: '100%' }}
       transition={{ duration: 3, ease: 'easeOut' }}
       style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
-   className="text-4xl md:text-5xl font-bold text-gray-800">
+   className="text-4xl  font-bold text-gray-800">
           Hello, I’m <span className="text-purple-700">Iqra Khan</span>
         </motion.div>
          <motion.div
